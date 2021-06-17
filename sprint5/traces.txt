@@ -1,0 +1,227 @@
+----------------------------------------
+Checking gitlab.ucode.world:/ucode/python-sprint05/obuhaiov.git
+----------------------------------------
+Checking repository structure for t00_guard
+Repository structure OK
+User files successfully compiled!
+Running tests for t00_guard for User
+Test files successfully compiled!
+Running tests for t00_guard for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 20 points
+----------------------------------------
+Total 100 points for t00_guard [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t01_knight
+Repository structure OK
+User files successfully compiled!
+Running tests for t01_knight for User
+Test files successfully compiled!
+Running tests for t01_knight for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t01_knight [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t02_shipments
+Repository structure OK
+User files successfully compiled!
+Running tests for t02_shipments for User
+Test files successfully compiled!
+Running tests for t02_shipments for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t02_shipments [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t03_decorator
+Repository structure OK
+User files successfully compiled!
+Running tests for t03_decorator for User
+Test files successfully compiled!
+Running tests for t03_decorator for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t03_decorator [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t04_inheritance
+Repository structure OK
+User files successfully compiled!
+Running tests for t04_inheritance for User
+Test files successfully compiled!
+Running tests for t04_inheritance for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t04_inheritance [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t05_threads
+Repository structure OK
+User files successfully compiled!
+Running tests for t05_threads for User
+Test files successfully compiled!
+Running tests for t05_threads for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t05_threads [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t06_processes
+Repository structure OK
+User files successfully compiled!
+Running tests for t06_processes for User
+Test files successfully compiled!
+Running tests for t06_processes for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t06_processes [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t07_dynamic
+Repository structure OK
+User files successfully compiled!
+Running tests for t07_dynamic for User
+Test files successfully compiled!
+Running tests for t07_dynamic for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t07_dynamic [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t08_new
+Repository structure OK
+User files successfully compiled!
+Running tests for t08_new for User
+Test files successfully compiled!
+Running tests for t08_new for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t08_new [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t09_with
+Repository structure OK
+User files successfully compiled!
+Running tests for t09_with for User
+Test files successfully compiled!
+Running tests for t09_with for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t09_with [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t10_traffic_light
+Repository structure OK
+User files successfully compiled!
+Running tests for t10_traffic_light for User
+Test files successfully compiled!
+Running tests for t10_traffic_light for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t10_traffic_light [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t11_bounce
+Repository structure OK
+User files successfully compiled!
+Running tests for t11_bounce for User
+Test files successfully compiled!
+Running tests for t11_bounce for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t11_bounce [ SUCCESS ]
+----------------------------------------
+
+

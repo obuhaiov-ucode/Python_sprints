@@ -1,0 +1,346 @@
+----------------------------------------
+Checking gitlab.ucode.world:/ucode/python-sprint03/obuhaiov.git
+----------------------------------------
+Checking repository structure for t00_lambda
+Repository structure OK
+Running tests for t00_lambda for User
+Running tests for t00_lambda for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 40 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+Total 100 points for t00_lambda [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t01_clear_words
+Repository structure OK
+User files successfully compiled!
+Running tests for t01_clear_words for User
+Test files successfully compiled!
+Running tests for t01_clear_words for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t01_clear_words [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t02_the_extractor
+Repository structure OK
+User files successfully compiled!
+Running tests for t02_the_extractor for User
+Test files successfully compiled!
+Running tests for t02_the_extractor for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 40 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 30 points
+----------------------------------------
+Total 100 points for t02_the_extractor [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t03_read_file
+Repository structure OK
+User files successfully compiled!
+Running tests for t03_read_file for User
+Test files successfully compiled!
+Running tests for t03_read_file for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t03_read_file [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t04_write
+Repository structure OK
+User files successfully compiled!
+Running tests for t04_write for User
+Test files successfully compiled!
+Running tests for t04_write for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 20 points
+----------------------------------------
+Total 100 points for t04_write [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t05_load_json
+Repository structure OK
+User files successfully compiled!
+Running tests for t05_load_json for User
+Test files successfully compiled!
+Running tests for t05_load_json for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t05_load_json [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t06_dump_json
+Repository structure OK
+User files successfully compiled!
+Running tests for t06_dump_json for User
+Test files successfully compiled!
+Running tests for t06_dump_json for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Failed
+
+Description: Test with values different from the story.
+
+user output vs test output
+83,84c83,84
+<          -2.0,
+<          -2.5
+---
+>          -2.5,
+>          -2.0
+95,96c95,96
+<          1.797,
+<          -0.464
+---
+>          -0.464,
+>          1.797
+
+You lost 100 points
+----------------------------------------
+Total 0 points for t06_dump_json [ FAIL ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t07_calculambdor
+Repository structure OK
+User files successfully compiled!
+Running tests for t07_calculambdor for User
+Test files successfully compiled!
+Running tests for t07_calculambdor for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 40 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 5 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 6 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 7 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 8 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 9 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 10 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 11 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 12 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 13 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 14 Ok
+You get 4 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 15 Ok
+You get 4 points
+----------------------------------------
+Total 100 points for t07_calculambdor [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t08_multiplier
+Repository structure OK
+Running tests for t08_multiplier for User
+Running tests for t08_multiplier for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 20 points
+----------------------------------------
+Total 100 points for t08_multiplier [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t09_raise
+Repository structure OK
+User files successfully compiled!
+Running tests for t09_raise for User
+Test files successfully compiled!
+Running tests for t09_raise for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t09_raise [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t10_group
+Repository structure OK
+User files successfully compiled!
+Running tests for t10_group for User
+Test files successfully compiled!
+Running tests for t10_group for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Failed
+
+Description: Test with random values.
+
+user output vs test output
+2c2
+< ***to_group***: [{'job': 't', 'company': 'j', 'address': 'u', 'name': 'b'}, {'job': 'q', 'company': 'k', 'address': 'x', 'name': 'b'}, {'job': 't', 'company': 'i', 'address': 'v', 'name': 'a'}, {'job': 'r', 'company': 'l', 'address': 'w', 'name': 'b'}, {'job': 't', 'company': 'j', 'address': 'u', 'name': 'b'}, {'job': 't', 'company': 'j', 'address': 'v', 'name': 'a'}, {'job': 'q', 'company': 'j', 'address': 'v', 'name': 'b'}, {'job': 'r', 'company': 'k', 'address': 'w', 'name': 'b'}, {'job': 'r', 'company': 'j', 'address': 'v', 'name': 'd'}, {'job': 's', 'company': 'i', 'address': 'w', 'name': 'd'}], ***keys***: ['company', 'name', 'job'], ***result***: {'i': [{'job': 't', 'address': 'v', 'name': 'a'}, {'job': 's', 'address': 'w', 'name': 'd'}], 'j': [{'job': 't', 'address': 'u', 'name': 'b'}, {'job': 't', 'address': 'u', 'name': 'b'}, {'job': 't', 'address': 'v', 'name': 'a'}, {'job': 'q', 'address': 'v', 'name': 'b'}, {'job': 'r', 'address': 'v', 'name': 'd'}], 'k': [{'job': 'q',
+  'address': 'x', 'name': 'b'}, {'job': 'r', 'address': 'w', 'name': 'b'}], 'l': [{'job': 'r', 'address': 'w', 'name': 'b'}]}
+---
+> ***to_group***: [{'job': 't', 'company': 'j', 'address': 'u', 'name': 'b'}, {'job': 'q', 'company': 'k', 'address': 'x', 'name': 'b'}, {'job': 't', 'company': 'i', 'address': 'v', 'name': 'a'}, {'job': 'r', 'company': 'l', 'address': 'w', 'name': 'b'}, {'job': 't', 'company': 'j', 'address': 'u', 'name': 'b'}, {'job': 't', 'company': 'j', 'address': 'v', 'name': 'a'}, {'job': 'q', 'company': 'j', 'address': 'v', 'name': 'b'}, {'job': 'r', 'company': 'k', 'address': 'w', 'name': 'b'}, {'job': 'r', 'company': 'j', 'address': 'v', 'name': 'd'}, {'job': 's', 'company': 'i', 'address': 'w', 'name': 'd'}], ***keys***: ['company', 'name', 'job'], ***result***: {'i': {'a': {'t': [{'address': 'v'}]}, 'd': {'s': [{'address': 'w'}]}}, 'j': {'a': {'t': [{'address': 'v'}]}, 'b': {'q': [{'address': 'v'}], 't': [{'address': 'u'}, {'address': 'u'}]}, 'd': {'r': [{'address': 'v'}]}}, 'k': {'b': {'q': [{'address': 'x'}], 'r': [{'address': 'w'}]}}, 'l': {'b': {'r': [{'address': 'w'}]}}}
+
+You lost 100 points
+----------------------------------------
+Total 0 points for t10_group [ FAIL ]
+----------------------------------------
+
+

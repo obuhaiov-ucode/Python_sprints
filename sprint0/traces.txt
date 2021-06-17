@@ -1,0 +1,291 @@
+----------------------------------------
+Checking gitlab.ucode.world:/ucode/python-sprint00/obuhaiov.git
+----------------------------------------
+Checking repository structure for t00_hello
+Repository structure OK
+User files successfully compiled!
+Running tests for t00_hello for User
+Test files successfully compiled!
+Running tests for t00_hello for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t00_hello [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t01_data_types
+Repository structure OK
+User files successfully compiled!
+Running tests for t01_data_types for User
+Test files successfully compiled!
+Running tests for t01_data_types for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t01_data_types [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t02_variables
+Repository structure OK
+User files successfully compiled!
+Running tests for t02_variables for User
+Test files successfully compiled!
+Running tests for t02_variables for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t02_variables [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t03_concatenate
+Repository structure OK
+User files successfully compiled!
+Running tests for t03_concatenate for User
+Test files successfully compiled!
+Running tests for t03_concatenate for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t03_concatenate [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t04_bridge_of_death
+Repository structure OK
+Running tests for t04_bridge_of_death for User
+Running tests for t04_bridge_of_death for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 35 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 35 points
+----------------------------------------
+Total 100 points for t04_bridge_of_death [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t05_math_operations
+Repository structure OK
+Running tests for t05_math_operations for User
+Running tests for t05_math_operations for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Failed
+
+Description: Test with random integers.
+
+user output vs test output
+3d2
+< 26 / 21 = 1.2380952380952381
+4a4
+> 26 / 21 = 1.2380952380952381
+
+You lost 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Failed
+
+Description: Test with random integers.
+
+user output vs test output
+3d2
+< 25 / 9 = 2.7777777777777777
+4a4
+> 25 / 9 = 2.7777777777777777
+
+You lost 35 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Failed
+
+Description: Test with random integers.
+
+user output vs test output
+3d2
+< 11 / 21 = 0.5238095238095238
+4a4
+> 11 / 21 = 0.5238095238095238
+
+You lost 35 points
+----------------------------------------
+Total 0 points for t05_math_operations [ FAIL ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t06_casting
+Repository structure OK
+Running tests for t06_casting for User
+Running tests for t06_casting for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 40 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+Total 100 points for t06_casting [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t07_condition
+Repository structure OK
+Running tests for t07_condition for User
+Running tests for t07_condition for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t07_condition [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t08_what_is_the_address
+Repository structure OK
+Running tests for t08_what_is_the_address for User
+Running tests for t08_what_is_the_address for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t08_what_is_the_address [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t09_get_rid_of_it
+Repository structure OK
+Running tests for t09_get_rid_of_it for User
+Running tests for t09_get_rid_of_it for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t09_get_rid_of_it [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t10_do_op
+Repository structure OK
+Running tests for t10_do_op for User
+Running tests for t10_do_op for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 20 points
+----------------------------------------
+Total 100 points for t10_do_op [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t11_bot
+Repository structure OK
+Running tests for t11_bot for User
+Running tests for t11_bot for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 5 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 5 Ok
+You get 5 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 6 Ok
+You get 10 points
+----------------------------------------
+Total 100 points for t11_bot [ SUCCESS ]
+----------------------------------------

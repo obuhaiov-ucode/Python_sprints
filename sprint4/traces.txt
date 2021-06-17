@@ -1,0 +1,293 @@
+----------------------------------------
+Checking gitlab.ucode.world:/ucode/python-sprint04/obuhaiov.git
+----------------------------------------
+Checking repository structure for t00_read_url
+Repository structure OK
+Running tests for t00_read_url for User
+Running tests for t00_read_url for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Failed
+
+Description: Test invalid URL.
+
+user output vs test output
+2,5d1
+< Traceback (most recent call last):
+<   File "/tmp/tmpnonmqbfo/user_repo/t00_read_url/main.py", line 8, in <module>
+<     with open(cmd_line_args[2]) as f:
+< FileNotFoundError: [Errno 2] No such file or directory: 'file.html'
+
+You lost 9 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Failed
+
+Description: Test URL with 404 error.
+
+user output vs test output
+5,8d4
+< Traceback (most recent call last):
+<   File "/tmp/tmpnonmqbfo/user_repo/t00_read_url/main.py", line 8, in <module>
+<     with open(cmd_line_args[2]) as f:
+< FileNotFoundError: [Errno 2] No such file or directory: 'file_path.html'
+
+You lost 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 8 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 5 Failed
+
+Description: Test invalid URL.
+
+user output vs test output
+1d0
+< ['\n', '<!DOCTYPE html>\n']
+
+You lost 8 points
+----------------------------------------
+Total 58 points for t00_read_url [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t01_youtube
+Repository structure OK
+User files successfully compiled!
+Running tests for t01_youtube for User
+Test files successfully compiled!
+Running tests for t01_youtube for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Failed
+
+Description: Test for use of required modules and methods.
+
+user output vs test output
+2c2
+< webbrowser method open() not used.
+---
+> webbrowser method open() used.
+
+You lost 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 28 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 27 points
+----------------------------------------
+Total 70 points for t01_youtube [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t02_knight_factory
+Repository structure OK
+Running tests for t02_knight_factory for User
+Running tests for t02_knight_factory for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t02_knight_factory [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t03_sqlite_manager
+Repository structure OK
+Running tests for t03_sqlite_manager for User
+Running tests for t03_sqlite_manager for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 5 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 10 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 10 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 10 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 5 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 6 Ok
+You get 10 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 7 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 8 Ok
+You get 10 points
+----------------------------------------
+Total 100 points for t03_sqlite_manager [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t04_zoolite
+Repository structure OK
+User files successfully compiled!
+Running tests for t04_zoolite for User
+Test files successfully compiled!
+Running tests for t04_zoolite for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 40 points
+----------------------------------------
+Total 100 points for t04_zoolite [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t05_connect_mysql
+Repository structure OK
+Running tests for t05_connect_mysql for User
+Compilation OK
+You get 100 points [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t06_database
+Repository structure OK
+Running tests for t06_database for User
+Compilation OK
+You get 100 points [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t07_myzoo
+Repository structure OK
+Running tests for t07_myzoo for User
+Compilation OK
+You get 100 points [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t08_datetime
+Repository structure OK
+User files successfully compiled!
+Running tests for t08_datetime for User
+Test files successfully compiled!
+Running tests for t08_datetime for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t08_datetime [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t09_ls
+Repository structure OK
+Running tests for t09_ls for User
+Compilation OK
+You get 100 points [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t10_venv
+Repository structure OK
+Running tests for t10_venv for User
+Running tests for t10_venv for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 10 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Failed
+
+Description: Test command to create virtual environment.
+
+user output vs test output
+1c1
+< Fail: command to create virtual environment is not used.
+---
+> Success: command to create virtual environment is used.
+
+You lost 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Failed
+
+Description: Test command to activate virtual environment.
+
+user output vs test output
+1c1
+< Fail: command to activate virtual environment is not used.
+---
+> Success: command to activate virtual environment is used.
+
+You lost 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 25 points
+----------------------------------------
+Total 60 points for t10_venv [ FAIL ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t11_soup
+Repository structure OK
+Running tests for t11_soup for User
+Compilation OK
+You get 100 points [ SUCCESS ]
+----------------------------------------
+
+

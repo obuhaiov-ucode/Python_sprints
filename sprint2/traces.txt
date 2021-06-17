@@ -1,0 +1,629 @@
+----------------------------------------
+Checking gitlab.ucode.world:/ucode/python-sprint02/obuhaiov.git
+----------------------------------------
+Checking repository structure for t00_tuple
+Repository structure OK
+User files successfully compiled!
+Running tests for t00_tuple for User
+Test files successfully compiled!
+Running tests for t00_tuple for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 100 points
+----------------------------------------
+Total 100 points for t00_tuple [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t01_dict
+Repository structure OK
+Running tests for t01_dict for User
+Running tests for t01_dict for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 30 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 40 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 30 points
+----------------------------------------
+Total 100 points for t01_dict [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t02_set
+Repository structure OK
+Running tests for t02_set for User
+Running tests for t02_set for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 40 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 60 points
+----------------------------------------
+Total 100 points for t02_set [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t03_bubble_sort
+Repository structure OK
+User files successfully compiled!
+Running tests for t03_bubble_sort for User
+Test files successfully compiled!
+Running tests for t03_bubble_sort for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t03_bubble_sort [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t04_unique
+Repository structure OK
+User files successfully compiled!
+Running tests for t04_unique for User
+Test files successfully compiled!
+Running tests for t04_unique for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 50 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 50 points
+----------------------------------------
+Total 100 points for t04_unique [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t05_regex
+Repository structure OK
+User files successfully compiled!
+Running tests for t05_regex for User
+Test files successfully compiled!
+Running tests for t05_regex for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Failed
+
+Description: Test for console output with valid and invalid dictionaries.
+
+user output vs test output
+1,6c1,6
+< The address of Dmitry Chaykin is invalid
+< The address of Andrey Myskin is invalid
+< The address of Tatyana Tsareva is valid
+< The address of Zhanna Akopyan is invalid
+< The address of Viktor Vasilyev is invalid
+< The address of Andrey Sharov is invalid
+---
+> The address of Dmitry Chaykin is invalid.
+> The address of Andrey Myskin is valid.
+> The address of Tatyana Tsareva is valid.
+> The address of Zhanna Akopyan is invalid.
+> The address of Viktor Vasilyev is invalid.
+> The address of Andrey Sharov is invalid.
+8,11c8,11
+< The address of Dmitry Chaykin is invalid
+< The address of Tatyana Tsareva is valid
+< The address of Zhanna Akopyan is invalid
+< The address of Andrey Sharov is invalid
+---
+> The address of Dmitry Chaykin is invalid.
+> The address of Tatyana Tsareva is valid.
+> The address of Zhanna Akopyan is invalid.
+> The address of Andrey Sharov is invalid.
+13,1018c13,18
+< The address of Irina Ilyina is valid
+< The address of Ruslan Nuriyev is valid
+< The address of Tatyana Tsareva is valid
+< The address of Dave Smith is invalid
+< The address of Viktor Vasilyev is invalid
+< The address of Andrey Sharov is invalid
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,  qNwksuhPkU   30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,  qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,  qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG, qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,    qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU    30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,  qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU   30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU   30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,     qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG, qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,    qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,     qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,    qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU    30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,    qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,     qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG, qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,    qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,    qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,     qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU    30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,    qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,    qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,     qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,  qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,  qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,  qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU   30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,  qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU   30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU   30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU    30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,  qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,   qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG, qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU 30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,    qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU   30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU    30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU    30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,    qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,   qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU  30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,   qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,    qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG, qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU 30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU 30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,  qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG, qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,    qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG, qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,     qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,     qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU    30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,  qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,     qNwksuhPkU     30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU    30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,qNwksuhPkU     30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU   30767,     51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,qNwksuhPkU     30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,   qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU  30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG, qNwksuhPkU 30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,     qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,    k oELGTvJG,    qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,    qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,  qNwksuhPkU     30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU 30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,  qNwksuhPkU  30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,   k oELGTvJG,     qNwksuhPkU    30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU 30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG, qNwksuhPkU     30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,    qNwksuhPkU   30767,   51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,   qNwksuhPkU    30767, 51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU   30767,51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,  qNwksuhPkU     30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,     k oELGTvJG,  qNwksuhPkU  30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,  k oELGTvJG,     qNwksuhPkU    30767,    51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine, k oELGTvJG,qNwksuhPkU   30767,  51827'};Output: ['The address of Name is invalid'];Expected valid.
+< Error. Test dict: {'Name': 'Ukraine,k oELGTvJG,   qNwksuhPkU     3
+You lost 100 points
+----------------------------------------
+Total 0 points for t05_regex [ FAIL ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t06_generators
+Repository structure OK
+User files successfully compiled!
+Running tests for t06_generators for User
+Test files successfully compiled!
+Running tests for t06_generators for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t06_generators [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t07_contacts
+Repository structure OK
+User files successfully compiled!
+Running tests for t07_contacts for User
+Test files successfully compiled!
+Running tests for t07_contacts for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Failed
+
+Description: Test for validation.
+
+user output vs test output
+2c2
+< [False, False, False, False, False, False, False, False, True, True, False, False, True, True, False, True, False, True, True, True, False]
+---
+> [False, False, False, False, False, False, False, False, False, False, False, False, True, True, False, True, False, True, True, True, False]
+15c15
+<    "I{L@oHO.`oA": {
+---
+>    "tw#@xnv.q:_": {
+
+You lost 20 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 20 points
+----------------------------------------
+Total 80 points for t07_contacts [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t08_contains
+Repository structure OK
+User files successfully compiled!
+Running tests for t08_contains for User
+Test files successfully compiled!
+Running tests for t08_contains for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t08_contains [ SUCCESS ]
+----------------------------------------
+----------------------------------------
+Checking repository structure for t09_fibonacci
+Repository structure OK
+User files successfully compiled!
+Running tests for t09_fibonacci for User
+Test files successfully compiled!
+Running tests for t09_fibonacci for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 25 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 25 points
+----------------------------------------
+Total 100 points for t09_fibonacci [ SUCCESS ]
+----------------------------------------
